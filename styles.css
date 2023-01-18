@@ -96,9 +96,10 @@ body{
 
 
 
-input:checked + label{
+input:checked + label + .price , input:checked + label{
     text-decoration: line-through;
 }
+
 
 .linea {
     
