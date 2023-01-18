@@ -73,6 +73,7 @@ margin-top: 5px
 
 body{
     background-color: #ffc845;
+    
 }
 
 .shop-items{
@@ -109,3 +110,15 @@ input:checked + label + .price , input:checked + label{
     padding: 0;
     margin: 0px auto 0 auto;
   }
+
+  .items-form{
+    color:black;
+    padding-left: 20px;
+  }
+
+  body h1 , .item , .price, input[name="enter_article"], input[name="enter_price"]{
+    color:black;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
