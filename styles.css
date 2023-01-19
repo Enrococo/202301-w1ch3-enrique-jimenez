@@ -116,7 +116,7 @@ input:checked + label + .price , input:checked + label{
     padding-left: 20px;
   }
 
-  .item , .price{
+  .item , .price_{
     color: black;
     text-align: left;
   }
@@ -125,3 +125,10 @@ input:checked + label + .price , input:checked + label{
     color: black;
   }
 
+.enviar{
+    background-color: #44a080;
+    color:white;
+    border: none;
+    box-shadow: none;
+    padding: 2px;
+}
