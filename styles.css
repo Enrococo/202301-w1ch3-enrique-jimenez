@@ -116,9 +116,12 @@ input:checked + label + .price , input:checked + label{
     padding-left: 20px;
   }
 
-  body h1 , .item , .price, input[name="enter_article"], input[name="enter_price"]{
-    color:black;
+  .item , .price{
+    color: black;
     text-align: left;
-    margin-bottom: 10px;
+  }
+
+  .items-form input{
+    color: black;
   }
 
