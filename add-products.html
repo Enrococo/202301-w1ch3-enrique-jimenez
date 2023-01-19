@@ -24,22 +24,31 @@
       </ul>
     </div>
     <div class="info-bar">
-        <a href=/add-products.html><i class="fa-solid fa-plus"></i></a>
+        <a href=/index.html><i class="fa-solid fa-minus"></i></a>
       <h2 class="items-purchased">2/3 comprados</h2>
     </div>
   </header>
+
   <body>
-    <div class="shop-items">
-    <input type="checkbox" class="items" value="Pan" />
-      <label for="Pan"> Pan </label> <p class="price">0.85</p><br />
-      <input type="checkbox" class="items" value="Azucar" />
-      <label for="Azucar"> Azúcar</label> <p class="price">0.55</p><br />
-      <input type="checkbox" class="items" value="Leche" />
-      <label for="Leche"> Leche</label><p class="price">1.50</p><br />
-      <input type="checkbox" class="items" value="Tofu" />
-      <label for="Tofu"> Tofu</label><p class="price">4.35</p><br />
+    <div class="items-form">
+      <h1>Añadir artículo</h1>
+
+      <form action="submeter-formulario.php" method="post">
+  
+  
+        <p>
+          <label class="item">Artículo:</label>
+        </p>
+          <input type="text" name="enter_article" required="obligatorio" placeholder="Introduce un artículo">
+        <p>
+          <label class="price_">Precio:</label>
+        </p>
+          <input type="number" name="enter_price" placeholder="Precio del artículo"><br><br>
+
+          <button type="submit" name="send_form" class="enviar">
+            <p>Añadir</p>
+          </button>
+        
+    </form>
     </div>
-    <div class="linea"></div>
-    <p class="total">7.25 €</p>
-    </body>
-</html>
+  </body>
